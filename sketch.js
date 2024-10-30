@@ -94,12 +94,14 @@ function draw() {
   
   // Calcula a nova largura e altura da imagem
   let newWidth = imgWidth / 4; // Largura dividida por 4
-  let newHeight = imgHeight / 4; // Altura dividida por 4
+  let newHeight = imgHeight / 4;
+  let new2Width = imgWidth / 4; // Largura dividida por 4
+  let new2Height = imgHeight / 8;// Altura dividida por 4
   
   // Desenha a imagem no centro do canvas, com a posição y fixada em 450
   imageMode(CENTER); // Define o modo de desenho da imagem para o centro
   image(img, width / 2, 450, newWidth, newHeight);
-  image(imgs, width / 2, 450, newWidth, newHeight); // Desenha a imagem centralizada e redimensionada
+  image(imgs, width / 2, 450, new2Width, new2Height); // Desenha a imagem centralizada e redimensionada
   
   // Desenha o texto rotacionado em 180 graus no lado direito
   fill(0); // Cor do texto
