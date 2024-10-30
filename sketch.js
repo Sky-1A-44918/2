@@ -93,9 +93,9 @@ function draw() {
   }
   
   // Calcula a nova largura e altura da imagem
-  let newWidth = imgWidth / 6; // Largura dividida por 4
-  let newHeight = imgHeight / 6;
-  let new2Width = imgWidth / 6; // Largura dividida por 4
+  let newWidth = imgWidth / 12; // Largura dividida por 4
+  let newHeight = imgHeight / 12;
+  let new2Width = imgWidth / 12; // Largura dividida por 4
   let new2Height = imgHeight / 32;// Altura dividida por 4
   
   // Desenha a imagem no centro do canvas, com a posição y fixada em 450
